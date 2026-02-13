@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 4.1)
+project(CFBCursosC__)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(main_app main.cpp)
+
+add_executable(aula04_variaveis aula04/variaveis_em_cpp.cpp)
+add_executable(aula05_declaracoes_multiplas aula05/declaracoes_multiplas_em_cpp.cpp)
+add_executable(aula_06_globais_locais_e_operadores_matematicos aula06/variaveis_globais_e_locais_oper_mat.cpp)
