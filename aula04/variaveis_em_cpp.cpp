@@ -8,30 +8,35 @@
 using namespace std;
 
 int main() {
-    int idade;
-    cout << "Digite sua idade: ";
-    cin >> idade;
+    string name;
+    cout << "Put your name: ";
+    cin >> name;
 
-    double altura;
-    cout << "Digite sua altura: ";
-    cin >> altura;
+    int age;
+    cout << "Your age: ";
+    cin >> age;
 
-    char letra;
-    cout << "Digite uma letra: ";
-    cin >> letra;
+    double height;
+    cout << "Your height: ";
+    cin >> height;
+
+    char letter;
+    cout << "Choose an letter: ";
+    cin >> letter;
 
     bool isStudent;
-    cout << "Você é estudante? (1 para sim, 0 para não): ";
+    cout << "Are you a student: (1 for yes, 0 for no): ";
     cin >> isStudent;
 
-    cout << "Imprimindo os valores digitados:" << endl;
-    cout << "Idade: " << idade << endl;
-    cout << "Altura: " << altura << endl;
-    cout << "Letra: " << letra << endl;
+    cout << "Printing datas:" << "\n";
+    cout << "Name: " << name << "\n";
+    cout << "Age: " << age << "\n";
+    cout << "Height: " << height << "\n";
+    cout << "Letter: " << letter << "\n";
     if (isStudent == 1) {
-        cout << "Você é estudante." << endl;
+        cout << "You're a student." << "\n";
     } else {
-        cout << "Você não é estudante." << endl;
+        cout << "You aren't a student" << "\n";
     }
 
     return 0;
