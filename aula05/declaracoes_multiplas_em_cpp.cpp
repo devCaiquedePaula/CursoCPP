@@ -5,13 +5,17 @@
 #include "declaracoes_multiplas_em_cpp.h"
 #include <iostream>
 
+using namespace std;
+
+// Definição de constantes
+#define PI 3.14
+#define CHANNEL cout << "Canal do YouTube: " << "C++ para Iniciantes\n\n"
+
 int main() {
-    // Declaração de múltiplas variáveis do mesmo tipo
-    int a = 10, b = 20, c = 30; // Declaração e inicialização de múltiplas variáveis do tipo inteiro
+    int lifes = 5, score = 0, level = 1;
 
-    std::cout << "Valor de a: " << a << std::endl;
-    std::cout << "Valor de b: " << b << std::endl;
-    std::cout << "Valor de c: " << c << std::endl;
-
+    cout << PI << "\n";
+    CHANNEL;
+    
     return 0;
 }
