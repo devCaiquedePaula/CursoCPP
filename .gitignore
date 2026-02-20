@@ -1,0 +1,48 @@
+# CLion/IntelliJ IDEA
+.idea/
+.project
+*.iml
+*.ipr
+*.iws
+
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+
+# Debug files
+*.pdb
+*.ilk
+*.exp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio (se usar)
+.vs/
+*.vcxproj*
+*.sln
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
