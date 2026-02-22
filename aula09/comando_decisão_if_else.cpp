@@ -43,5 +43,17 @@ int main() {
     } else {
         cout << "Encerrando o programa. Até mais!\n";
     }
+
+    /* O Operador ternario (?:) é uma forma concisa de expressar uma condição if-else. Ele tem a seguinte sintaxe:
+    * condição ? expressão_se_verdadeira : expressão_se_falsa;
+    * O operador ternário avalia a condição e retorna a expressão_se_verdadeira se a condição for verdadeira, ou a expressão_se_falsa se a condição for falsa.
+    * Exemplo:
+    */
+    int x;
+    cout << "Digite um numero: ";
+    cin >> x;
+    const string resultado = (x > 5) ? "Maior que 5" : "Menor ou igual a 5";
+    cout << resultado;
+
     return 0;
 }
