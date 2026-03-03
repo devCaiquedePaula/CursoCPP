@@ -12,3 +12,4 @@ add_executable(aula_07 aula07/incremento_decremento_variaveis_operadores_pos_pre
 add_executable(aula_08 aula08/invertendo_valores_variaveis.cpp)
 add_executable(aula_09 aula09/comando_decisão_if_else.cpp)
 add_executable(aula_10 aula10/operadores_and_or_not.cpp)
+add_executable(aula_11 aula11/operador_ternario.cpp)
